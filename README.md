@@ -2,17 +2,12 @@
 
 This is a simple employee tracker application built with Node.js and MySQL. It allows users to manage departments, roles, and employees in a company.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-
 ## Installation
 
-git clone https://github.com/your-username/employee-tracker.git
-cd employee-tracker
-npm install
-Set up your MySQL database by importing the provided SQL file schema.sql.
+- git clone https://github.com/your-username/employee-tracker.git
+- cd employee-tracker
+- npm install
+- Set up your MySQL database by importing the provided SQL file schema.sql.
 
 ## Usage
 
