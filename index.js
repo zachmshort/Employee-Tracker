@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-const db = require("./db/connection.js");
+import db from './db/connection.js';
 
 db.connect((err) => {
     if (err) throw err;
@@ -328,7 +328,7 @@ var employee_tracker = function () {
             //Log Out
           } else if (answers.prompt === "Log Out") {
             db.end();
-            console.log("Ciao!");
+            console.log("bye bye");
           }
         });
     };
